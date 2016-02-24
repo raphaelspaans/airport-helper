@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 package Airport_Helper;
 //package airport;
+=======
+package airport;
+>>>>>>> refs/remotes/origin/master
 
 public class Airport {
 
@@ -20,12 +24,28 @@ public class Airport {
 	}
 		
 
-	public static void countUsagePerPassenger ()   //void for now to not get an error 
+	public static void countUsagePerPassenger (Passenger passenger)   //void for now to not get an error // kan ook wat anders zijn
 	{
-		int passengerCount = 0; 
+	
+	   name(); 
+		
+		
+		
+	}
+
+	public static void name() {
+		// from passenger class
+		if(passengerAirport.equals(name))   //requires an array of airports. 
+		{
+			Passengers ++; 
+		}
+			
+		
+		
+		
+		//return count;  
+		
+		
 	}
 	
-	//return count; 
-	
 
-}
